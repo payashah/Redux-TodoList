@@ -1,0 +1,70 @@
+.todo-ctrl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.todo {}
+
+.todo-title {
+    color: brown;
+}
+
+.todo-input-selectBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.input {
+    width: 20rem;
+    border: 1px solid rgb(211, 210, 210);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: teal;
+    border-radius: .5rem;
+    padding: .3rem;
+}
+
+.input-text {
+    width: 15rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.input-btn {
+    border: none;
+    outline: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: .5rem;
+    font-size: 20px;
+
+
+}
+
+.input-selectBox {
+    background-color: teal;
+    margin-left: 2rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    color: white;
+    font-size: 15px;
+
+}

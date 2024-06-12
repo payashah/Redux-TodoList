@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="todo-ctrl">
+        <div class="todo">
+            <h1 class="todo-title"> Paya Todo List </h1>
+            <div class="todo-input-selectBox">
+                <div class="input">
+                    <input class="input-text" type="text">
+                    <button class="input-btn">+</button>
+                </div>
+                <select class="input-selectBox">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="inCompleted">InCompleted</option>
+                </select>
+            </div>
+        </div>
+        <h1  class="todo-res"></h1>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.2.1/redux.min.js"></script>
+    <script type="module" src="js/App.js"></script>
+</body>
+</html>
